@@ -1,2 +1,5 @@
 - ICONS
--
+- MAIL TEST
+- CALENDLY
+- WireFrame / bring in assets from WordPress
+
