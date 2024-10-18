@@ -1,7 +1,10 @@
 - ICONS
-- MAIL TEST
+- MAIL TEST (just use gmail for now)
 - CALENDLY
 - WireFrame / bring in assets from WordPress
 
 - database diagrams
+
+- get it RIGHT!
+
 
