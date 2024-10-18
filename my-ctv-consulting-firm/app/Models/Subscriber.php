@@ -7,8 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Subscriber extends Model
 {
-    // factory
     use HasFactory;
 
-    protected $fillable = ['email'];
+    protected $fillable = ['email', 'first_name', 'last_name', 'status'];
+
+    public function scopeWhereEmail($query, $email)
+    {
+        return $query->where('email', $email);
+    }
 }
