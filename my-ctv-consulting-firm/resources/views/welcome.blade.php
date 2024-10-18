@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CTV Consulting Firm</title>
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    <!-- Include Heroicons via CDN -->
+    {{--   TODO: IMPORT ICONS --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
@@ -50,12 +50,19 @@
 
 </nav>
 
+{{--END OF NAVBAR--}}
+
+{{--MAIN--}}
 <main>
     @yield('content')
 </main>
+{{--END OF MAIN--}}
 
+
+{{--FOOTER--}}
 <footer class="footer">
     <!-- Add your footer content here -->
 </footer>
+{{--END OF FOOTER--}}
 </body>
 </html>
