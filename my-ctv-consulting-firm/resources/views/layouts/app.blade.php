@@ -61,8 +61,39 @@
 
 {{--FOOTER--}}
 <footer class="footer">
-    <!-- Add your footer content here -->
+    <div class="content has-text-centered">
+
+        <p>
+            (c) Copyright 2024 Scrooge McDuck. All Rights Reserved.
+        </p>
+    </div>
+    <div class="content has-text-centered">
+        <p>
+            <strong>My Website</strong> by <a href="https://example.com">Your Name</a>. The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        </p>
+        <p>
+            <a href="https://twitter.com" class="icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://facebook.com" class="icon">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://github.com" class="icon">
+                <i class="fab fa-github"></i>
+            </a>
+        </p>
+    </div>
+
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
 </footer>
 {{--END OF FOOTER--}}
+
+
 </body>
 </html>
