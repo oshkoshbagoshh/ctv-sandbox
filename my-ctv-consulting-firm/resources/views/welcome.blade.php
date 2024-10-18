@@ -9,6 +9,15 @@
 <body>
 <nav class="navbar" role="navigation" aria-label="main navigation">
     <!-- Add your navigation menu here -->
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact Us</a></li>
+        <li><a href="#Info">Info</a></li>
+            {{--   Add FAQ, Testimonials, Privacy Policy, etc.     --}}
+    </ul>
+
 </nav>
 
 <main>

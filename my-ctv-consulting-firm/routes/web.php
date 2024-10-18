@@ -8,4 +8,7 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class, 'index']);
 
 
+Route::get('/services', [\App\Http\Controllers\ServicesController::class, 'index']);
+
+
 
